@@ -18,7 +18,7 @@ var myMap = L.map("map", {
   }).addTo(myMap);
 
   // Store our API endpoint
-var link = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson";
+var link = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
 //  Get color radius call to the query URL
 d3.json(link, function(data) {
